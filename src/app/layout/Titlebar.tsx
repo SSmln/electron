@@ -7,9 +7,6 @@ import {
 } from '@fluentui/react-icons-mdl2';
 import styles from './Titlebar.module.css';
 
-const { ipcRenderer } = window.require('electron');
-const ipc = ipcRenderer;
-
 export default function TitleTopbar() {
     return (
         <div className={styles.titleTopbar}>

@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function ContentPage() {
-  return (
-    <div>ContentPage</div>
-  )
+    return <div>ContentPage</div>;
 }

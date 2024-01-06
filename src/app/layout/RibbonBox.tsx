@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function RibbonBox() {
-  return (
-    <div>RibbonBox</div>
-  )
+    return <div>RibbonBox</div>;
 }
