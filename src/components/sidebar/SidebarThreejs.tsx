@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function SidebarThreejs() {
-    return <div>hellonjkansjdknasjk</div>;
+    return <div>SidebarThreejs</div>;
 }

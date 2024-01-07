@@ -5,6 +5,7 @@ import SidebarDatabase from './SidebarDatabase';
 import SidebarSetting from './SidebarSetting';
 import SidebarPanorama from './SidebarPanorama';
 import SidebarThreejs from './SidebarThreejs';
+import SidebarVideoplayer from './SidebarVideoplayer';
 
 function Sidebar() {
     const currentTab = useSelector((state) => state.data.sidebar.currentTab);
@@ -20,8 +21,11 @@ function Sidebar() {
                 return <SidebarDatabase />;
             case 'settings':
                 return <SidebarSetting />;
-            case 'threejs':
+
+            case 'threeJs':
                 return <SidebarThreejs />;
+            case 'videoplayer':
+                return <SidebarVideoplayer />;
         }
     };
     return <div className="sidebarMain">{renderComponent()}</div>;

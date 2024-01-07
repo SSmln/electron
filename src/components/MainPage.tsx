@@ -8,7 +8,7 @@ import Titlebar from './Titlebar';
 import RibbonBox from './RibbonBox';
 
 export default function MainPage() {
-    // const isOpen = useSelector((state) => state.data.sidebar.isOpen);
+    const isOpen = useSelector((state) => state.data.sidebar.isOpen);
     return (
         <div className={styles.container}>
             <div className={styles.titlebar}>
@@ -21,7 +21,9 @@ export default function MainPage() {
                 <SidebarMenu />
             </div>
             <div
-            // className={isOpen === 'open' ? styles.sidebarOpen : styles.sidebarHide}
+                className={
+                    isOpen === 'open' ? styles.sidebarOpen : styles.sidebarHide
+                }
             >
                 <Sidebar />
             </div>

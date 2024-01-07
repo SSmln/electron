@@ -18,10 +18,11 @@ function RibbonBox() {
                 return <RibbonPanorama />;
             case 'streaming':
                 return <RibbonBoxStreaming />;
+
             // case "database": return <SidebarDatabase />;
             // case "settings": return <SidebarSetting />;
             default:
-                return <div style={{ color: 'white' }}>default</div>;
+                return <div style={{ color: 'black' }}>default</div>;
         }
     };
     return (

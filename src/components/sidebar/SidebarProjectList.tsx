@@ -33,7 +33,7 @@ function SidebarProjectList() {
     );
 
     return (
-        <div>
+        <div className="">
             <div className={styles.sidetopbar}>탐색기</div>
             <div className={styles.sidebar}>
                 {projects.map((values, index) => {

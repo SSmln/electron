@@ -98,7 +98,17 @@ export default function SidebarMenu() {
                     </li>
                     <li>
                         <SidebarMenuButton
-                            name="threejs"
+                            name="threeJs"
+                            icon={
+                                <DatabaseIcon
+                                    className={styles.sidebar__item}
+                                />
+                            }
+                        />
+                    </li>
+                    <li>
+                        <SidebarMenuButton
+                            name="videoplayer"
                             icon={
                                 <DatabaseIcon
                                     className={styles.sidebar__item}

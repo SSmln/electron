@@ -28,6 +28,12 @@
   padding: 0px;
 }
 
+.sidebar__ul{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
 /* ul {
   width: 100%;
   margin: 0px;
