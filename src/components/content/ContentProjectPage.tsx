@@ -101,7 +101,7 @@ function ContentProjectPage() {
                 ) : (
                     <div style={{ color: 'black' }}>
                         {currentIdx !== 'None' ? (
-                            <h1 className="bg-black">
+                            <h1 className="bg-[#e6e6e6]">
                                 Current Page : {tabComponents[currentIdx].name}
                             </h1>
                         ) : (
