@@ -1,10 +1,11 @@
-import Image from 'next/image';
-import MainPage from './pages/MainPage';
+'use client';
+import MainPage from '@/components/MainPage';
 
 export default function Home() {
     return (
-        <div className="app">
+        <div>
             <MainPage />
+            {/* hello */}
         </div>
     );
 }
